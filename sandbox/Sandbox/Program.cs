@@ -1,15 +1,12 @@
 /* using System;
 
-public class Program
-{
-    public static void Main()
-    {
+
         /* Console.WriteLine("Hello World!");
 
         Counter myCounter = new Counter();
         myCounter.Run(); */
 
-        Message m1 = new Message();
+        /* Message m1 = new Message();
         m1._message = "Send help!";
         m1._priority = 1;
         Console.WriteLine(m1.GetMessage());
@@ -17,7 +14,7 @@ public class Program
         Message m2 = new Message();
         m2._message = "Please pick up some carrots at the store.";
         m2._priority = 1;
-        Console.WriteLine(m2.GetMessage());
+        Console.WriteLine(m2.GetMessage()); */
 
 
         /* Console.WriteLine("Mad Libs!");
@@ -37,3 +34,14 @@ public class Program
         Console.WriteLine($"On the table I found a mysterious {noun} covered in dust.");
         Console.WriteLine($"It was a surprisingly {adjective} experience for everyone involved."); */
 
+
+
+public class Program
+{
+    public static void Main()
+    {
+        List<int> numbers = new List<int> { 1, 2, 3 };
+numbers.ForEach(Console.WriteLine);
+
+    }
+}
