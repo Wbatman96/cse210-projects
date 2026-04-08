@@ -24,7 +24,7 @@ public class Video
 
     public void Display()
     {
-        Console.WriteLine($"{_title} by {_author} Length in sec: {_length} This Video has {CountComments}");
+        Console.WriteLine($"{_title} by {_author} Length in sec: {_length} This Video has {CountComments()}");
         
     }
 

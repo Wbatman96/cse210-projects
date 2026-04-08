@@ -18,24 +18,26 @@ class Program
         Comment comment5 = new Comment("Zack", "Gnarly stuff dude.");
         Comment comment6 = new Comment("John", "That looks cool.");
 
-        puzzle.AddComment(comment4);
-        puzzle.AddComment(comment5);
-        puzzle.AddComment(comment6);
+        puzzle2.AddComment(comment4);
+        puzzle2.AddComment(comment5);
+        puzzle2.AddComment(comment6);
 
         Video puzzle3 = new Video("2000 Piece Puzzle", "ThePuzzler", 2486);
         Comment comment7 = new Comment("Bob", "That one is huge!");
         Comment comment8 = new Comment("Kevin", "I don't know how you can do one that large.");
         Comment comment9 = new Comment("Zack", "I did that puzzle too.");
 
-        puzzle.AddComment(comment7);
-        puzzle.AddComment(comment8);
-        puzzle.AddComment(comment9);
+        puzzle3.AddComment(comment7);
+        puzzle3.AddComment(comment8);
+        puzzle3.AddComment(comment9);
 
         puzzle.Display();
         puzzle.ShowComments();
         Console.WriteLine();
         puzzle2.Display();
+        puzzle2.ShowComments();
         Console.WriteLine();
         puzzle3.Display();
+        puzzle3.ShowComments();
     }
 }

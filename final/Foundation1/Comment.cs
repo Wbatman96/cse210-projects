@@ -9,8 +9,8 @@ public class Comment
         _text = text;
     }
 
-    internal void Display()
+    public void Display()
     {
-        throw new NotImplementedException();
+        Console.WriteLine($"{_name}: {_text}");
     }
 }
